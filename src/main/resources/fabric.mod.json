@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "shinnyladders",
+  "version": "${version}",
+  "name": "ShinnyLadders",
+  "description": "Add glowing ladders to Minecraft!",
+  "authors": [
+    "DoveCot"
+  ],
+  "contributors": [
+    "Rinko1231"
+  ],
+  "contact": {
+    "sources": "https://github.com/DoveCotMC/ShinnyLadders"
+  },
+  "license": "Nova-Relay-License-1.0",
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "team.dovecotmc.shinnyladders.client.ShinnyLaddersClient"
+    ],
+    "main": [
+      "team.dovecotmc.shinnyladders.ShinnyLadders"
+    ]
+  },
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "*"
+  }
+}
